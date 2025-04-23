@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU Economic Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+            background: #f9f9f9;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .viz-section {
+            margin-bottom: 3rem;
+        }
+        .viz-section img {
+            max-width: 100%;
+            display: block;
+            margin: 1rem auto;
+            border: 1px solid #ccc;
+        }
+        .description {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 1rem;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>EU Economic Indicators (2013–2023)</h1>
+    <div class="description">
+        <p>This project analyzes key macroeconomic indicators across EU member states over the past 10 years. It focuses on GDP per capita, government deficit, and public debt, based on official Eurostat data. Visualizations help identify patterns, compare countries, and better understand the economic landscape of the European Union.</p>
+    </div>
+
+    <div class="viz-section">
+        <h2>1. GDP per Capita Over Time</h2>
+        <img src="gdp_per_capita_all_countries.png" alt="GDP per capita chart">
+    </div>
+
+    <div class="viz-section">
+        <h2>2. Government Debt Trends (2013–2023)</h2>
+        <img src="debt_all_countries.png" alt="Debt chart">
+    </div>
+
+    <div class="viz-section">
+        <h2>3. Debt Heatmap by Country and Year</h2>
+        <img src="debt_heatmap.png" alt="Debt heatmap">
+    </div>
+
+    <div class="viz-section">
+        <h2>4. Government Deficit Trends (2013–2023)</h2>
+        <img src="deficit_all_countries.png" alt="Deficit line chart">
+    </div>
+
+    <div class="viz-section">
+        <h2>5. Top and Bottom 5 Countries by Debt (2023)</h2>
+        <img src="debt_top_bottom_comparison.png" alt="Top/bottom debt bar chart">
+    </div>
+
+    <div class="viz-section">
+        <h2>6. Top and Bottom 5 Countries by Deficit (2023)</h2>
+        <img src="deficit_top_bottom_comparison.png" alt="Top/bottom deficit bar chart">
+    </div>
+
+    <div class="viz-section">
+        <h2>7. Radar Chart: Country Comparison</h2>
+        <img src="economic_radar_chart.png" alt="Radar chart">
+    </div>
+
+    <div class="viz-section">
+        <h2>8. GDP vs. Debt with Deficit Coloring</h2>
+        <img src="economic_indicators_scatter.png" alt="Scatter plot with debt and deficit">
+    </div>
+
+    <div class="viz-section">
+        <h2>9. GDP vs. Deficit with Debt Coloring</h2>
+        <img src="gdp_deficit_scatter.png" alt="Scatter plot GDP vs deficit">
+    </div>
+
+    <div class="viz-section">
+        <h2>10. Simplified GDP vs. Deficit View</h2>
+        <img src="gdp_deficit_simple_scatter.png" alt="Simplified scatter plot">
+    </div>
+
+</body>
+</html>
